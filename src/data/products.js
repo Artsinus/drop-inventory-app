@@ -56,6 +56,16 @@ const products = [
   // Add one original product below.
   // Use image: require('../assets/images/your-drop.png')
   // Choose your own unique id, name, category, price, and quantity.
+
+   {
+  id: 'drop-004',
+  image: require('../assets/images/your-drop.jpg'),
+  name: 'Case',
+  category: 'Biggest livestreamer',
+  price: 1900000,
+  quantity: 1,
+  accent: '#F58E3C',
+},
 ];
 
 export default products;
