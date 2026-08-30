@@ -39,7 +39,7 @@ const toggleSaved = (productId) => {
 
         <View style={styles.statCard}>
           {/* Display the number of saved product ids below. */}
-          <Text style={styles.statValue}></Text>
+          <Text style={styles.statValue}>{savedIds.length}</Text>
           <Text style={styles.statLabel}>SAVED</Text>
         </View>
       </View>

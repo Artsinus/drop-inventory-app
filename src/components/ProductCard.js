@@ -12,7 +12,8 @@ export default function ProductCard({
   accent,
   saved,
   onToggleSaved,
-}) { (
+}) {
+  return (
     <View style={styles.card}>
       {/* Display the product image prop below. */}
       <Image source={image} style={styles.image} />
@@ -22,7 +23,7 @@ export default function ProductCard({
         <Text style={styles.category}>{category}</Text>
 
         {/* Display the product name prop below. */}
-        <Text style={styles.name}></Text>
+        <Text style={styles.name}>{name}</Text>
 
         <View style={styles.metaRow}>
           {/* Display the formatted price below. */}
