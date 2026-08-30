@@ -20,6 +20,16 @@ const products = [
   // quantity: 4
   // accent: '#00C4A0'
 
+  {
+  id: 'drop-002',
+  image: require('../assets/images/night-shift.png'),
+  name: 'Night Shift 02',
+  category: 'Street',
+  price: 145,
+  quantity: 4,
+  accent: '#00C4A0',
+},
+
 
   // Add the Studio Low 03 product object below.
   // Use:
@@ -30,6 +40,17 @@ const products = [
   // price: 110
   // quantity: 0
   // accent: '#F58E3C'
+
+  {
+  id: 'drop-003',
+  image: require('../assets/images/studio-low.png'),
+  name: 'Studio Low 03',
+  category: 'Lifestyle',
+  price: 110,
+  quantity: 0,
+  accent: '#F58E3C',
+},
+
 
 
   // Add one original product below.
